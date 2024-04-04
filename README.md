@@ -1,4 +1,11 @@
-### Hi there 👋
+### Hi! I'm Ryan
+
+- 🎓 I'm studying Mechatronics and Robotics Engineering at Queen's University
+- 🤖 I'm learning the basics of ROS and control systems
+- 🦿 I'm a member of [Queen's BioMechatronics Team](https://qbmet.ca/)
+- 🧠 I want to learn more about artificial intelligence and neural networks
+
+- 📫 Feel free to reach out to me at [ryan.donen@gmail.com](mailto:ryan.donen@gmail.com)
 
 <!--
 **RyeBread181/RyeBread181** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
