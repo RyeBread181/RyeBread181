@@ -15,7 +15,9 @@ The goal of this project is to gain knowledge and experiment with:
 ## Hardware
 - Raspberry Pi 4B (4GB)
 - Micro SD card (32GB)
-- Adafruit Servo Hat for Raspberry Pi
-- 2x 5 volt, 2 amp, 2.1 mm DC power supply
-- Jumper wires (male to female)
+- Adafruit Servo Hat for Raspberry Pi ([1528-1372-ND](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/2327/5629420?utm_adgroup))
+- 2x 5 volt, 2 amp, 2.1 mm DC power supply ([WSU050-2000](https://www.digikey.ca/en/products/detail/triad-magnetics/WSU050-2000/3094911))
+- Jumper wires (male to female) ([]())_
 - 2x Servo motors ([MG996R](https://www.amazon.ca/RGBZONE-MG996R-Torque-Digital-Helicopter/dp/B07RFRLRV8/?th=1))
+
+## Inverse Kinematics
