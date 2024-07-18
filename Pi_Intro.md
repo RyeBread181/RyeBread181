@@ -20,4 +20,21 @@ The goal of this project is to gain knowledge and experiment with:
 - Jumper wires (male to female) ([]())_
 - 2x Servo motors ([MG996R](https://www.amazon.ca/RGBZONE-MG996R-Torque-Digital-Helicopter/dp/B07RFRLRV8/?th=1))
 
-## Inverse Kinematics
+## Dynamics (Torque Requirements)
+
+The rated torque of the MG996R servo motor is 11 kg*cm.
+The following dimensional relationships between different segments of the arm are as follows
+
+Insert Figures
+
+A = 4/3*B = 8/3*C
+a = 4/3*b = 8/3*c c = 50g
+x = 100g, y = 155g
+
+t = 0.5Aa + Aw + (A+0.5*B)b + (A+B)u + (A+B+0.5C)c
+
+solving for the length C, with the rated torque above, we get C = 6.13 cm, and thus B = 12.27 cm and A = 16 cm
+
+
+By removing motor 3 (claw allignment) we can reduce the end effector weight (reducing u to 100g) and instead we can use the motor to aid in the base torque doubling it to 22 kg/cm.
+This changes our maximum lengths to A = 38 cm, B = 28 cm, C = 14 cm.
